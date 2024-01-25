@@ -1,0 +1,1 @@
+cmd_/mnt/c/Users/Admin/Desktop/test1/hello.ko := ccache arm-none-eabi-ld -r  -EL -z noexecstack  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /mnt/c/Users/Admin/Desktop/test1/hello.ko /mnt/c/Users/Admin/Desktop/test1/hello.o /mnt/c/Users/Admin/Desktop/test1/hello.mod.o ;  true
